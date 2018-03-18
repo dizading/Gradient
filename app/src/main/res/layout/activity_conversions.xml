@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv"
+    android:background="@drawable/gradient"
+    android:padding="@dimen/eight_dips"
+    tools:context="com.example.android.gradient.Conversions">
+
+    <LinearLayout style="@style/mmv">
+
+        <TextView
+            android:onClick="toDecimaltoBinaryExplanation"
+            style="@style/mw"
+            android:layout_marginTop="@dimen/eight_dips"
+            android:background="@drawable/ns_and_convrt"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/decimal_to_binary"
+            android:textSize="@dimen/eighteen_sp" />
+        <TextView
+            android:onClick="toBinarytoDecimalExplanation"
+            style="@style/mw"
+            android:layout_marginTop="@dimen/eight_dips"
+            android:background="@drawable/ns_and_convrt"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/binary_to_decimal"
+            android:textSize="@dimen/eighteen_sp" />
+        <TextView
+            android:onClick="onDecimaltoOctal"
+            style="@style/mw"
+            android:layout_marginTop="@dimen/eight_dips"
+            android:background="@drawable/ns_and_convrt"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/decimal_to_octal"
+            android:textSize="@dimen/eighteen_sp" />
+        <TextView
+            style="@style/mw"
+            android:onClick="toOctaltoDecimal"
+            android:layout_marginTop="@dimen/eight_dips"
+            android:background="@drawable/ns_and_convrt"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/octal_to_decimal"
+            android:textSize="@dimen/eighteen_sp" />
+        <TextView
+            android:onClick="toDecimaltoHexadecimal"
+            style="@style/mw"
+            android:layout_marginTop="@dimen/eight_dips"
+            android:background="@drawable/ns_and_convrt"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/decimal_to_hexadecimal"
+            android:textSize="@dimen/eighteen_sp" />
+        <TextView
+            style="@style/mw"
+            android:onClick="toHexadecimaltoDecimal"
+            android:layout_marginTop="@dimen/eight_dips"
+            android:background="@drawable/ns_and_convrt"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/hexadecimal_to_decimal"
+            android:textSize="@dimen/eighteen_sp" />
+    </LinearLayout>
+
+</ScrollView>

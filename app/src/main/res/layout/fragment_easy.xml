@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv" android:layout_margin="@dimen/four_dips"
+    tools:context="com.example.android.gradient.Easy">
+
+    <ScrollView style="@style/mwv" android:background="@drawable/ns_and_convrt">
+        <LinearLayout android:padding="@dimen/eight_dips" style="@style/mwv">
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy1"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwh" android:id="@+id/myFirstRadioGroup"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/easyOnea"
+                    android:text="@string/_15"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/easyOneb"
+                    android:text="@string/_9"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/easyOnec"
+                    android:text="@string/_16"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/easyOned"
+                    android:text="@string/_12"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy2"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/mSecondRadioGroup"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/easyTwoa"
+                    android:text="@string/bit"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/easyTwob"
+                    android:text="@string/bytes"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyTwoc"
+                    android:text="@string/nibble"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyTwod"
+                    android:text="@string/word"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy3"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/mThirdRadioGroup"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/easyThreea"
+                    android:text="@string/_10"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyThreeb"
+                    android:text="@string/_31"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyThreec"
+                    android:text="@string/_25"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyThreed"
+                    android:text="@string/_32"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy4"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/q4radioGroup"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/easyq4a"
+                    android:text="@string/octal"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyq4b"
+                    android:text="@string/binary"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/easyq4c"
+                    android:text="@string/hexadecimal"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy5"
+                style="@style/mw"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/q5radioGroup"
+                style="@style/mw">
+                <RadioButton android:id="@+id/q5a"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:buttonTint="@color/grey"
+                    android:text="@string/_10_20"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+                <RadioButton android:id="@+id/q5b"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:buttonTint="@color/grey"
+                    android:text="@string/_20_40"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy6"
+                style="@style/mw"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/q6radioGroup"
+                style="@style/mw">
+                <RadioButton android:id="@+id/q6a"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:buttonTint="@color/grey"
+                    android:text="@string/tru"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+                <RadioButton android:id="@+id/q6b"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:buttonTint="@color/grey"
+                    android:text="@string/fal"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy7"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/q7"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/q7a"
+                    android:text="@string/easy7AnsOne"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/q7b"
+                    android:text="@string/easy7AnsTwo"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/q7c"
+                    android:text="@string/easy7AnsThree"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/q7d"
+                    android:text="@string/easy7AnsFour"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/easy8"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/q8"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/q8a"
+                    android:text="@string/four"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/q8b"
+                    android:text="@string/eight"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/q8c"
+                    android:text="@string/twelve"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/q8d"
+                    android:text="@string/six"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <Button style="@style/mw"
+                android:id="@+id/easy_button"
+                android:layout_marginTop="@dimen/ten_dips"
+                android:text="@string/submit"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

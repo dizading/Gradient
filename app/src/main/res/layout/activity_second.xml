@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv"
+    android:background="@drawable/gradient"
+    android:padding="@dimen/sixty_dips"
+    tools:context="com.example.android.gradient.SecondActivity">
+
+    <LinearLayout style="@style/mmv">
+
+        <TextView
+            android:id="@+id/bits_second_activity"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:fontFamily="@font/coiny"
+            android:gravity="center_horizontal"
+            android:text="@string/bits"
+            android:textColor="@color/white"
+            android:textSize="@dimen/one_hundred_ten_sp"
+            android:transitionName="@string/trans_name"
+            tools:ignore="Suspicious0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/twenty_dips"
+            tools:ignore="Suspicious0dp">
+
+            <EditText
+                android:id="@+id/username_edittext"
+                style="@style/edit_text_second_activity"
+                android:hint="@string/hint_username" />
+
+            <EditText
+                android:inputType="textEmailAddress"
+                style="@style/edit_text_second_activity"
+                android:hint="@string/hint_email" />
+
+            <RadioGroup style="@style/mw">
+
+                <RadioButton
+                    style="@style/radio_button_second_activity"
+                    android:buttonTint="@color/white"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    style="@style/radio_button_second_activity"
+                    android:buttonTint="@color/white"
+                    android:text="@string/female" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_takeme"
+            android:fontFamily="@font/coiny"
+            android:gravity="center"
+            android:onClick="toThirdActivity"
+            android:text="@string/learners_disney"
+            android:textAllCaps="false"
+            android:textColor="@color/purple" />
+    </LinearLayout>
+
+</ScrollView>

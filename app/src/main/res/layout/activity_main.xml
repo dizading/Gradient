@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv"
+    android:background="@drawable/gradient"
+    tools:context="com.example.android.gradient.MainActivity">
+
+    <TextView
+        android:id="@+id/bits_first_activity"
+        style="@style/first_activity_text_view"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="@string/bits"
+        android:textSize="@dimen/one_hundred_ten_sp"
+        android:transitionName="@string/trans_name" />
+
+    <TextView
+        style="@style/first_activity_text_view"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/intro"
+        android:textSize="@dimen/twenty_sp" />
+
+</LinearLayout>

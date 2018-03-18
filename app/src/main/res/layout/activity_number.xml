@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv"
+    android:background="@drawable/gradient" android:padding="@dimen/eight_dips"
+    tools:context="com.example.android.gradient.Number">
+
+    <LinearLayout android:background="@drawable/ns_and_convrt" android:padding="@dimen/eight_dips"
+        style="@style/mwv">
+        <TextView style="@style/mw"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/twenty_six_sp"
+            android:padding="@dimen/eight_dips"
+            android:text="@string/what_are_numbers"/>
+        <ScrollView android:layout_marginTop="@dimen/eight_dips"
+            style="@style/mw">
+
+            <TextView
+                style="@style/mw"
+                android:lineSpacingExtra="@dimen/five_dips"
+                android:padding="@dimen/eight_dips"
+                android:text="@string/number_system"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/sixteen_sp" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

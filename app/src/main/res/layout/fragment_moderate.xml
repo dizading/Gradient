@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" style="@style/mmv"
+    android:padding="@dimen/four_dips"
+    tools:context="com.example.android.gradient.Moderate">
+
+    <ScrollView style="@style/mwv" android:background="@drawable/ns_and_convrt">
+        <LinearLayout android:padding="@dimen/eight_dips" style="@style/mwv">
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate1"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwh" android:id="@+id/mq1"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/mq1a"
+                    android:text="@string/ascii"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/mq1b"
+                    android:text="@string/parity"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/mq1c"
+                    android:text="@string/gray"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/mq1d"
+                    android:text="@string/ebcdic"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate2"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/mq2"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:buttonTint="@color/grey"
+                    style="@android:style/Widget.CompoundButton.CheckBox"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/mq2a"
+                    android:text="@string/lsb"/>
+                <RadioButton
+                    android:buttonTint="@color/grey"
+                    style="@android:style/Widget.CompoundButton.CheckBox"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/mq2b"
+                    android:text="@string/msb"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate3"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwv" android:id="@+id/mq3"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/mq3a"
+                    android:text="@string/before_the_msb"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq3b"
+                    android:text="@string/after_the_lsb"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq3c"
+                    android:text="@string/in_the_parity_word"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq3d"
+                    android:text="@string/after_the_odd_parity_bit"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate4"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwv" android:id="@+id/mq4"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/mq4a"
+                    android:text="@string/octal"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq4b"
+                    android:text="@string/ascii"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq4c"
+                    android:text="@string/boy_scout"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq4d"
+                    android:text="@string/alphanumeric"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate5"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwh" android:id="@+id/mq5"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/mq5a"
+                    android:text="@string/_400"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/mq5b"
+                    android:text="@string/_10pow2"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/mq5c"
+                    android:text="@string/_10pow4"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/mq5d"
+                    android:text="@string/_100"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate6"
+                style="@style/mw"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/mq6"
+                style="@style/mw">
+                <RadioButton android:id="@+id/mq6a"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:buttonTint="@color/grey"
+                    android:text="@string/tru"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+                <RadioButton android:id="@+id/mq6b"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:buttonTint="@color/grey"
+                    android:text="@string/fal"
+                    style="@android:style/Widget.CompoundButton.CheckBox"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate7"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwv" android:id="@+id/mq7"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/mq7a"
+                    android:text="@string/_10111100"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq7b"
+                    android:text="@string/_0111000"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq7c"
+                    android:text="@string/_1100011"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton android:id="@+id/mq7d"
+                    android:text="@string/_1111000"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/moderate8"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/mq8"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/mq8a"
+                    android:text="@string/_153"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/mq8b"
+                    android:text="@string/_351"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/mq8c"
+                    android:text="@string/_253"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/mq8d"
+                    android:text="@string/_352"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <Button style="@style/mw"
+                android:id="@+id/moderate_button"
+                android:layout_marginTop="@dimen/ten_dips"
+                android:text="@string/submit"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

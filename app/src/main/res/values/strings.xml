@@ -1,0 +1,368 @@
+<resources>
+    <string name="app_name">Bits</string>
+    <string name="bits">bits</string>
+    <string name="intro">The best learner\'s companion</string>
+    <string name="question">What level of comfortability do you have with inter-number system conversions?</string>
+    <string name="first_option">I do not have any prior knowledge about numbering systems. I wish to learn about the different types of number systems and
+    inter-number system conversions.</string>
+    <string name="second_option">I am completely well-versed with the concept of number systems but have a vague understanding
+    about inter-number system conversion. I want to learn about the conversions.</string>
+    <string name="third_option">I have good knowledge about the number systems and proficient in inter-number systems conversions. I am up for the
+    challenge.</string>
+    <string name="fourth_option">Nah, I prefer the easy way. Take me to the conversion tab.</string>
+    <string name="trans_name">bits</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="learners_disney">Take me to Learner\'s Disney</string>
+    <string name="number_system">
+    A number is a collection of symbols. Each symbol\'s value is a function of the type
+    of the system and its position. Number systems are positional because the value of the symbol depends upon its position.
+    \n\nThe number is represented as\n\t\t
+    <center>( S<sub><small>n-1</small></sub>S<sub><small>n-2</small></sub>...S<sub><small>1</small></sub>S<sub><small>0</small></sub><b>.</b>
+        S<sub><small>-1</small></sub>S<sub><small>-2</small></sub>...S<sub><small>-m</small></sub>)<sub><small>b</small></sub></center>
+        \n\twhere b = radix or base of the number system
+        \n\tn = number of digits in the integer part
+        \n\tm = number of digits in the fractional part
+        \n\tS<sub><small>n-1</small></sub> = most significant digit
+        \n\tS<sub><small>-m</small></sub> = least significant digit.
+        \n\nOn the basis of number of symbols and radix, number systems are classifed as:-
+        \n(i) decimal number system
+        \n(ii) binary number system
+        \n(iii) octal number system and
+        \n(iv) hexadecimal number system.
+    </string>
+    <string name="decimal_explanation">
+    In the decimal number system, the total number of symbols are ten. They are:- 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9;
+    the base is 10, and the radix point is known as the decimal point. The digits at the left side of the decimal point constitute
+    the integer part and the digits at the right side of the decimal point constitute the fractional part. The value of a digit is the
+    function of its position in a number. The left most digit has the maximum value, hence it is known as the most significant digit (MSD).
+    The right most digit has the minimum value and hence it is known as the least significant digit (LSD).
+    \n\nFor example,\n(555.55)<sub><small>10</small></sub> = 5 "\u00d7" 10<sup><small>2</small></sup> + 5 "\u00d7" 10<sup><small>1</small></sup>
+     + 5 "\u00d7" 10<sup><small>0</small></sup> + 5 "\u00d7" 10<sup><small>-1</small></sup> + 5 "\u00d7" 10<sup><small>-2</small></sup></string>
+
+    <string name="binary_explanation">
+    In the binary number system, the total number of symbols are two i.e. 0 and 1. The base is 2 and the radix point is known as the
+    binary point. These symbols are known as bits (abbreviated from binary digits). It is a positional number system; the weight of a bit
+    is defined by its position with base 2.\n\n
+    For example,\n
+    (111.11)<sub><small>2</small></sub> = 1 "\u00d7" 2<sup><small>2</small></sup> + 1 "\u00d7" 2<sup><small>1</small></sup> + 1 "\u00d7" 2<sup><small>0</small></sup> + 1 "\u00d7" 2<sup><small>-1</small></sup>+ 1 "\u00d7" 2<sup><small>-2</small></sup></string>
+
+    <string name="octal_explanation">
+    The number system with base 8 is known as the octal number system. Eight symbols are use to represent numbers in the system, and these are:
+     0, 1, 2, 3, 4, 5, 6 and 7. In the octal number system, the radix point is known as the octal point. It is a positional number system; the weight of a digit is defined by
+    its position with base 8.\n\n
+    For example,\n
+    (576.217)<sub><small>8</small></sub> = 5 "\u00d7" 8<sup><small>2</small></sup> + 7 "\u00d7" 8<sup><small>1</small></sup> + 6 "\u00d7" 8<sup><small>0</small></sup> +
+    2 "\u00d7" 8<sup><small>-1</small></sup> + 1 "\u00d7" 8<sup><small>-2</small></sup> + 7 "\u00d7" 8<sup><small>-3</small></sup></string>
+
+    <string name="hexadecimal_explanation">
+    The number system with base 16 is known as the hexadecimal number system. In the hexadecimal number system,
+    16 symbols are used to represent the numbers and these symbols are: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E and F.
+    The letters A, B, C, D, E, F corresponds to the decimal numbers 10, 11, 12, 13, 14 and 15. In the hexadecimal number system,
+    the radix point is known as the hexadecimal point. It is a positional number system; the weight of the digit is defined by its position with base 16.\n\n
+    For example,\n
+    (15A.26)<sub><small>16</small></sub> = 1 "\u00d7" 16<sup><small>2</small></sup> + 5 "\u00d7" 16<sup><small>1</small></sup> +
+    10 "\u00d7" 16<sup><small>0</small></sup> + 2 "\u00d7" 16<sup><small>-1</small></sup> + 6 "\u00d7" 16<sup><small>-2</small></sup></string>
+    <string name="decimal_to_binary">Decimal to Binary</string>
+
+    <string name="decimal_to_binary_explanation">There are two methods to convert a decimal numer to its equivalent binary number, namely
+    (i) sum of power methods and (ii) repeated divisions and multiplications method.\n\n
+    <font size="18"><b>Sum of power method</b></font>\n
+    In the sum of power method, the decimal number is expressed as a sum of powers of 2 and then 1s and 0s are written in the appropriate
+    bit positions. It is just the opposite of binary to decimal conversion.\n
+    For example:\n
+    i. (26)<sub><small>10</small></sub> = 16 + 8 + 0 + 2 + 0 \n
+    \t = 1 "\u00d7" 2<sup><small>4</small></sup> + 1 "\u00d7" 2<sup><small>3</small></sup> + 0 "\u00d7" 2<sup><small>0</small></sup> +
+    1 "\u00d7" 2<sup><small>1</small></sup> + 0 "\u00d7" 2<sup><small>0</small></sup>\n
+    \t = (11010)<sub><small>2</small></sub>\n
+    ii. (27)<sub><small>10</small></sub> = 16 + 8 + 0 + 2 + 1\n
+    \t = 1 "\u00d7" 2<sup><small>4</small></sup> + 1 "\u00d7" 2<sup><small>3</small></sup> + 0 "\u00d7" 2<sup><small>0</small></sup> +
+    1 "\u00d7" 2<sup><small>1</small></sup> + 1 "\u00d7" 2<sup><small>0</small></sup>\n
+    \t = (11011)<sub><small>2</small></sub>\n\n
+    <font size="18"><b>Repeated division and multiplication method</b></font>\n
+    The integer and fractional parts of a decimal number are treated seperately for the conversion. The repetitive division method is used for
+    the integer part of decimal numbers and the repetitive multiplication method is used for the fractional part of decimal numbers.\n\n
+    (a)\tRepeated division (for integer decimal number)\n
+    In the repeated division method, the decimal number is divided by 2, and the remainder is found after each division, until the quotient
+    0 is obtained. Note that the binary result is obtained by writing the first remainder as the least significant bit and the last remainder as
+    the most significant bit.\n
+    For example: (25)<sub><small>10</small></sub> = (\t?\t)<sub><small>2</small></sub>
+        \nAnswer:
+        \n\t\t\t25 "\u00f7" 2\t\tQuotient = 12\t\tRemainder = 1
+        \n\t\t\t12 "\u00f7" 2\t\tQuotient = 6\t\tRemainder = 0
+        \n\t\t\t6 "\u00f7" 2\t\tQuotient = 3\t\tRemainder = 0
+        \n\t\t\t3 "\u00f7" 2\t\tQuotient = 1\t\tRemainder = 1
+        \n\t\t\t1 "\u00f7" 2\t\tQuotient = 0\t\tRemainder = 1
+        \n\t\t\tTherefore, (25)<sub><small>10</small></sub> = (11001)<sub><small>2</small></sub>\n\n
+    (b)\tRepeated multiplication\t(for fractional decimal number)\n
+        In the repeated multiplication method, the fractional part of the decimal number is multiplied by 2; the integer part of the
+        multiplication is found after each multiplication operation, until the fractional part of a decimal number becomes zero. The
+        fractional part of the binary result is obtained by writing the first bit as the MSB and the last bit as the LSB.\n
+        For example: (0.625)<sub><small>10</small></sub> = (\t?\t)<sub><small>2</small></sub>
+        \nAnswer:
+        \n\t\t\t0.625 "\u00d7" 2 = 1.25\t\tInteger part = 1
+        \n\t\t\t0.25 "\u00d7" 2 = 0.5\t\tInteger part = 0
+        \n\t\t\t0.5 "\u00d7" 2 = 1.0\t\tInteger part = 1
+        \n\t\t\tTherefore, (0.625)<sub><small>10</small></sub> = (0.101)<sub><small>2</small></sub>
+    </string>
+    <string name="binary_to_decimal">Binary to Decimal</string>
+    <string name="binary_to_decimal_explanation">
+        Binary numbers can be converted to its decimal equivalent by summing the weights of various positions in the binary number which contain
+        a symbol 1. The generalized method for the conversion of a binary number to its decimal equivalent is explained as below:
+        \n\nConsider the binary number:
+        \n\t\t\t\t\t<i>B</i><sub><small>3</small></sub><i>B</i><sub><small>2</small></sub>B<sub><small>1</small></sub>
+        <i>B</i><sub><small>0</small></sub><b>.</b><i>B</i><sub><small>-1</small></sub><i>B</i><sub><small>-2</small></sub><i>B</i><sub><small>-3</small></sub>
+        \n\nThe first left bit from the binary point is denoted by <i>B</i><sub><small>0</small></sub>. Subscript 0 defines the position of the bit. The value
+        of <i>B</i><sub><small>0</small></sub> in decimal is <i>B</i><sub><small>0</small></sub> "\u00d7" 2<sup><small>0</small></sup>. Similarly, the value of
+        <i>B</i><sub><small>1</small></sub> is <i>B</i><sub><small>1</small></sub> "\u00d7" 2<sup><small>1</small></sup> and so on. The first right bit from
+        the binary point is denoted by <i>B</i><sub><small>-1</small></sub>. The value of <i>B</i><sub><small>-1</small></sub> is <i>B</i><sub><small>-1</small></sub>
+        "\u00d7" 2<sup><small>-1</small></sup>. The decimal equivalent of the binary number is the sum of all these bit values.
+        \nDecimal = <i>B</i><sub><small>3</small></sub> "\u00d7" 2<sup><small>3</small></sup> + <i>B</i><sub><small>2</small></sub> "\u00d7" 2<sup><small>2</small></sup> +
+        <i>B</i><sub><small>1</small></sub> "\u00d7" 2<sup><small>1</small></sup> + <i>B</i><sub><small>0</small></sub> "\u00d7" 2<sup><small>0</small></sup> +
+        <i>B</i><sub><small>-1</small></sub> "\u00d7" 2<sup><small>-1</small></sup> + <i>B</i><sub><small>-2</small></sub> "\u00d7" 2<sup><small>-2</small></sup> +
+        <i>B</i><sub><small>-3</small></sub> "\u00d7" 2<sup><small>-3</small></sup>
+        \n\nFor example: (011)<sub><small>2</small></sub> = (\t?\t)<sub><small>10</small></sub>
+        \nAnswer:
+        \n\t(1011)<sub><small>2</small></sub> = 1 "\u00d7" 2<sup><small>3</small></sup> + 0 "\u00d7" 2<sup><small>2</small></sup> +
+        1 "\u00d7" 2<sup><small>1</small></sup> + 1 "\u00d7" 2<sup><small>0</small></sup>
+        \n\t\t\t\t\t\t= 16 + 0 + 2 + 1
+        \n\t\t\t\t\t\t= (19)<sub><small>10</small></sub>
+    </string>
+    <string name="decimal_to_octal">Decimal to Octal</string>
+    <string name="decimal_to_octal_explanation">
+        To convert a decimal number to octal, the integer and fractional part of a decimal number are treated seperately for the conversion.
+        \n\n(a) Integer number
+        \nThe integer part of a decimal number canbe converted to octal by using the repeated division method. The integer part of the decimal number is divided by 8,
+        and the remainder is found after each division until the remainder as the LSD and the last remainder as the MSD.
+        \nFor example: (266)<sub><small>10</small></sub> = (\t?\t)<sub><small>8</small></sub>
+        \nAnswer:
+        \n\t\t\t266 "\u00f7" 8\t\tQuotient = 33 Remainder = 2
+        \n\t\t\t33 "\u00f7" 8\t\tQuotient = 4 Remainder = 1
+        \n\t\t\t4 "\u00f7" 8\t\tQuotient = 0 Remainder = 4
+        \n\t\t\tTherefore, (266)<sub><small>10</small></sub> = (412)<sub><small>8</small></sub>
+        \n\n(b) Fractional number
+        \nThe fractional part of a decimal number can be converted to its octal equivalent by using the repeated multiplication method. The fractional part of the decimal number
+        is multiplied by 8, and the integer part after each multiplication operation is found until the fractional part of the decimal number becomes zero. The fractional
+        part of the octal result is obtained by writing the first integer as the MSD and the last integer as the LSD.
+        \nFor exampe: (0.256)<sub><small>10</small></sub> = (\t?\t)<sub><small>8</small></sub>
+        \nAnswer:
+        \n\t\t\t0.256 "\u00d7" 8 = 2.048;\t\t\tInteger part = 2
+        \n\t\t\t0.048 "\u00d7" 8 = 0.384;\t\t\tInteger part = 0
+        \n\t\t\t0.384 "\u00d7" 8 = 3.072;\t\t\tInteger part = 3
+        \n\t\t\t0.072 "\u00d7" 8 = 0.576;\t\t\tInteger part = 0
+        \n\t\t\t0.576 "\u00d7" 8 = 4.608;\t\t\tInteger part = 4
+        \n\t\t\tTherefore,\t(0.256)<sub><small>10</small></sub> = (0.20304)<sub><small>8</small></sub>
+    </string>
+    <string name="octal_to_decimal_explanation">
+        Octal numbers can be converted to its decimal equivalent by summing the weights of various positions. The generalized method for the
+        conversion of an octal number to its decimal equivalent is explained as below.
+        \n\nConsider the octal number:
+        \n\t\t\t\t\t<i>O</i><sub><small>3</small></sub><i>O</i><sub><small>2</small></sub><i>O</i><sub><small>1</small></sub><i>O</i><sub><small>0</small></sub><b>.</b>
+        <i>O</i><sub><small>-1</small></sub><i>O</i><sub><small>-2</small></sub><i>O</i><sub><small>-3</small></sub>
+        \n\nThe first left digit from the octal point is denoted by <i>O</i><sub><small>0</small></sub>. Subscript 0 is defines the position of the digit.
+        The value of <i>O</i><sub><small>0</small></sub> in decimal is <i>O</i><sub><small>0</small></sub> "\u00d7" 8<sup><small>0</small></sup>. Similarly, the value of
+        <i>O</i><sub><small>1</small></sub> is B<sub><small>1</small></sub> "\u00d7" 8<sup><small>1</small></sup> and so on. The first right digit from
+        the octal point is denoted by <i>O</i><sub><small>-1</small></sub>. The value of <i>O</i><sub><small>-1</small></sub> is <i>O</i><sub><small>-1</small></sub>
+        "\u00d7" 8<sup><small>-1</small></sup>. The decimal number of the octal number is the sum of all these digit values.
+        \nDecimal = <i>O</i><sub><small>3</small></sub> "\u00d7" 8<sup><small>3</small></sup> + <i>O</i><sub><small>2</small></sub> "\u00d7" 8<sup><small>2</small></sup> +
+        <i>O</i><sub><small>1</small></sub> "\u00d7" 8<sup><small>1</small></sup> + <i>O</i><sub><small>0</small></sub> "\u00d7" 8<sup><small>0</small></sup> +
+        <i>O</i><sub><small>-1</small></sub> "\u00d7" 8<sup><small>-1</small></sup> + <i>O</i><sub><small>-2</small></sub> "\u00d7" O<sup><small>-2</small></sup> +
+        <i>O</i><sub><small>-3</small></sub> "\u00d7" 8<sup><small>-3</small></sup>
+        \n\nFor example: (753)<sub><small>8</small></sub> = (\t?\t)<sub><small>10</small></sub>
+        \nAnswer:
+        \n\t(753)<sub><small>8</small></sub> = 7 "\u00d7" 8<sup><small>2</small></sup> + 5 "\u00d7" 8<sup><small>1</small></sup> + 3 "\u00d7" 8<sup><small>0</small></sup>
+        \n\t\t\t\t\t= 448 + 40 + 3
+        \n\t\t\t\t\t= (491)<sub><small>10</small></sub>
+    </string>
+    <string name="decimal_to_hexadecimal_explanation">
+        There are different methods to convert the integer and decimal parts of a decimal number into its hexadecimal equivalent.
+        \n\n(a) Integer part
+        \nThe integer part of a decimal number can be converted to hexadecimal by using the repeated division method. The integer part of a decimal
+        number is divided by 16 and the remainder is found after each division until the quotient becomes zero. The hexadecimal number is obtained by
+        writing the first remainder as the LSD and the last remainder as the MSD.
+        \nFor example: (293)<sub><small>10</small></sub> = (\t?\t)<sub><small>16</small></sub>
+        \nAnswer:
+        \n\t\t\t293 "\u00f7" 16;\t\t\tQuotient = 18 Remainder = 5
+        \n\t\t\t18 "\u00f7" 16;\t\t\tQuotient = 1 Remainder = 2
+        \n\t\t\t1 "\u00f7" 16;\t\t\tQuotient = 0 Remainder = 1
+        \n\t\t\tTherefore, (293)<sub><small>10</small></sub> = (125)<sub><small>16</small></sub>
+        \n\n(b) Fractional part
+        \nThe fractional part of a decimal number can be converted to hexadecimal by using the repeated multiplication method. The fractional
+        part is multiplied by 16, the integer part is found after each multiplication operation until the fractional part becomes zero. The
+        fractional part of the hexadecimal result is obtained by writing the first integer as the MSD and the last integer as the LSD.
+        \nFor example: (0.210)<sub><small>10</small></sub> = (\t?\t)<sub><small>16</small></sub>
+        \nAnswer:
+        \n\t\t\t0.210 "\u00d7" 16 = 3.36;\t\t\tInteger part = 3
+        \n\t\t\t0.36 "\u00d7" 16 = 5.76;\t\t\tInteger part = 5
+        \n\t\t\t0.76 "\u00d7" 16 = 12.16;\t\t\tInteger part = 12
+        \n\t\t\t0.16 "\u00d7" 0.16 = 2.56;\t\t\tInteger part = 2
+        \n\t\t\t0.56 "\u00d7" 16 = 8.96;\t\t\tInteger part = 8
+        \n\t\t\t0.96 "\u00d7" 16 = 15.36;\t\t\tInteger part = 15
+        \nWe know that, the hexadecimal equivalent of the number 12 and 15 is C and F. Therefore, (0.210)<sub><small>10</small></sub> = (0.35C28F)<sub><small>16</small></sub>
+    </string>
+    <string name="hexadecimal_to_decimal_explanation">
+        Hexadecimal numbers can be converted to its decimal equivalent by summing the weights of various positions. The generalized method for hexadecimal to decimal conversion
+        is explained as below.
+        \n\nConsider the hexadecimal number:
+        \n\t\t\t\t\t<i>H</i><sub><small>3</small></sub><i>H</i><sub><small>2</small></sub><i>H</i><sub><small>1</small></sub><i>H</i><sub><small>0</small></sub><b>.</b>
+        <i>H</i><sub><small>-1</small></sub><i>H</i><sub><small>-2</small></sub><i>H</i><sub><small>-3</small></sub>
+        \n\nThe first leftmost digit from the hexadecimal point is denoted by <i>H</i><sub><small>0</small></sub>. Subscript 0 is defines the position of the digit.
+        The value of <i>H</i><sub><small>0</small></sub> in decimal is <i>H</i><sub><small>0</small></sub> "\u00d7" 16<sup><small>0</small></sup>. Similarly, the value of
+        <i>H</i><sub><small>1</small></sub> is <i>H</i><sub><small>1</small></sub> "\u00d7" 16<sup><small>1</small></sup> and so on. The first right digit from
+        the hexadecimal point is denoted by <i>H</i><sub><small>-1</small></sub>. The value of <i>H</i><sub><small>-1</small></sub> is <i>H</i><sub><small>-1</small></sub>
+        "\u00d7" 16<sup><small>-1</small></sup>. The decimal number of the octal number is the sum of all these digit values.
+        \nDecimal = <i>H</i><sub><small>3</small></sub> "\u00d7" 16<sup><small>3</small></sup> + <i>H</i><sub><small>2</small></sub> "\u00d7" 16<sup><small>2</small></sup> +
+        <i>H</i><sub><small>1</small></sub> "\u00d7" 16<sup><small>1</small></sup> + <i>H</i><sub><small>0</small></sub> "\u00d7" 16<sup><small>0</small></sup> +
+        <i>H</i><sub><small>-1</small></sub> "\u00d7" 16<sup><small>-1</small></sup> + <i>H</i><sub><small>-2</small></sub> "\u00d7" 16<sup><small>-2</small></sup> +
+        <i>H</i><sub><small>-3</small></sub> "\u00d7" 16<sup><small>-3</small></sup>
+        \n\nFor example: (A23)<sub><small>16</small></sub> = (\t?\t)<sub><small>10</small></sub>
+        \n\t\t\t(A23)<sub><small>16</small></sub> = 10 "\u00d7" 16<sup><small>2</small></sup> + 2 "\u00d7" 16<sup><small>1</small></sup> + 3 "\u00d7" 16<sup><small>0</small></sup>
+        \n\t\t\t\t\t\t= 2560 + 32 + 3
+        \n\t\t\t\t\t\t= (2595)<sub><small>10</small></sub>
+    </string>
+
+    <string name="tab_label1">Easy</string>
+    <string name="tab_label2">Moderate</string>
+    <string name="tab_label3">Advanced</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="easy1">1. The base of hexadecimal number system is:</string>
+    <string name="easy2">2. Which is typically the longest: bit, byte, nibble, word?</string>
+    <string name="easy3">3. What decimal number does 2<sup><small>5</small></sup> represent?</string>
+    <string name="easy4">4. Digital electronics are based on the ______ numbering system.</string>
+    <string name="easy5">
+        5. A complete alphanumeric code would include 26 lowercase letters, 25 uppercase letters, 10 numeric digits, 7 punctuation
+        marks, and anywhere from ____ to ____ other characters.
+    </string>
+    <string name="easy6">
+        6. Each position in a decimal multidigit number will have a weighting factor based on a power of only 10.
+    </string>
+    <string name="easy7">7. Decimal 12 is ____ in hexadecimal</string>
+    <string name="easy7AnsOne">12<sub><small>16</small></sub></string>
+    <string name="easy7AnsTwo">C<sub><small>16</small></sub></string>
+    <string name="easy7AnsThree">A2<sub><small>16</small></sub></string>
+    <string name="easy7AnsFour">A<sub><small>16</small></sub></string>
+    <string name="easy8">8. Each hexadecimal digit converts to ____ binary digits.</string>
+    <string name="_15">15</string>
+    <string name="_9">9</string>
+    <string name="_16">16</string>
+    <string name="_12">12</string>
+    <string name="bit">Bit</string>
+    <string name="bytes">Byte</string>
+    <string name="nibble">Nibble</string>
+    <string name="word">Word</string>
+    <string name="_10">10</string>
+    <string name="_31">31</string>
+    <string name="_25">25</string>
+    <string name="_32">32</string>
+    <string name="octal">octal</string>
+    <string name="binary">binary</string>
+    <string name="hexadecimal">hexadecimal</string>
+    <string name="_10_20">10, 20</string>
+    <string name="_20_40">20, 40</string>
+    <string name="tru">True</string>
+    <string name="fal">False</string>
+    <string name="four">Four</string>
+    <string name="eight">Eight</string>
+    <string name="twelve">Twelve</string>
+    <string name="six">Six</string>
+    <string name="moderate1">1. Which of the following is the most widely used alphanumeric code for computer input and output?</string>
+    <string name="moderate2">2. A binary number\'s value changes most drastically when the _____ is changed.</string>
+    <string name="moderate3">3. When using parity, where is the parity bit placed?</string>
+    <string name="moderate4">4. The _____ code represents alphanumeric characters as seven-bit binary numbers.</string>
+    <string name="moderate5">5. In the decimal number 481, the power-of-10 weight of the digit 4 is _____ .</string>
+    <string name="moderate6">6. A binary number with four digits has a maximum value of 15.</string>
+    <string name="moderate7">7. The decimal number 188 is equal to the binary number _____ .</string>
+    <string name="moderate8">8. Convert the following binary number to octal \n\t\t<font size="15">001101011</font><sub><small>2</small></sub></string>
+    <string name="_352">352<sub><small>8</small></sub></string>
+    <string name="_253">253<sub><small>8</small></sub></string>
+    <string name="_351">351<sub><small>8</small></sub></string>
+    <string name="_153">153<sub><small>8</small></sub></string>
+    <string name="_10111100">10111100<sub><small>2</small></sub></string>
+    <string name="_0111000">0111000<sub><small>2</small></sub></string>
+    <string name="_1100011">1100011<sub><small>2</small></sub></string>
+    <string name="_1111000">1111000<sub><small>2</small></sub></string>
+    <string name="_400">400</string>
+    <string name="_10pow2">10<sup><small>2</small></sup></string>
+    <string name="_10pow4">10<sup><small>4</small></sup></string>
+    <string name="_100">100</string>
+    <string name="alphanumeric">Alphanumeric</string>
+    <string name="boy_scout">Boy Scout</string>
+    <string name="ascii">ASCII</string>
+    <string name="after_the_odd_parity_bit">After the odd parity bit</string>
+    <string name="in_the_parity_word">In the parity word</string>
+    <string name="after_the_lsb">After the LSB</string>
+    <string name="before_the_msb">Before the MSB</string>
+    <string name="msb">MSB</string>
+    <string name="lsb">LSB</string>
+    <string name="ebcdic">EBCDIC</string>
+    <string name="gray">Gray</string>
+    <string name="parity">Parity</string>
+    <string name="advanced1">1. Convert 8B3F<sub><small>16</small></sub> to binary.</string>
+    <string name="advanced2">2. The sum of 11101 + 10111 equals _____ .</string>
+    <string name="advanced3">3. A decimal fraction can be converted to binary by using division-by-2 method.</string>
+    <string name="advanced4">4. When using repeated division by 2 method of converting from binary to decimal, one must write the first remainder as the:</string>
+    <string name="advanced5">5. Convert the binary number 1100 to Gray code.</string>
+    <string name="advanced6">6. What is the difference between binary coding and binary-coded-decimal?</string>
+    <string name="advanced7">7. In binary, the decimal 93 converts to _____ digits.</string>
+    <string name="advanced8">8. The 2\'s complement of the binary number 1000 is _____ .</string>
+    <string name="_1000">1000</string>
+    <string name="_1110">1110</string>
+    <string name="_0110">0110</string>
+    <string name="_111">111</string>
+    <string name="five">five</string>
+    <string name="eleven">eleven</string>
+    <string name="seven">seven</string>
+    <string name="binary_coding_is_pure_binary">Binary coding is pure binary.</string>
+    <string name="bcd_has_no_decimal_format">BCD has no decimal format.</string>
+    <string name="binary_coding_has_a_decimal_format">Binary coding has a decimal format.</string>
+    <string name="bcd_is_pure_binary">BCD is pure binary.</string>
+    <string name="_1001">1001</string>
+    <string name="_1100">1100</string>
+    <string name="_1010">1010</string>
+    <string name="_0011">0011</string>
+    <string name="lsb_provided_the_final_remainder_is_used_to_replace_the_original_lsb_which_is_then_moved_to_the_msb_position">LSB, provided the final remainder is used to replace the original LSB, which is then moved to the MSB position.</string>
+    <string name="msb_providing_the_follwing_sequences_of_remainders_are_written_in_the_descending_order_until_the_final_remainder_is_achieved">MSB, providing the follwing sequences of remainders are written in the descending order until the final remainder is achieved.</string>
+    <string name="_100100">100100</string>
+    <string name="_110100">110100</string>
+    <string name="_100001">100001</string>
+    <string name="_110011">110011</string>
+    <string name="_1000101100111111">1000101100111111</string>
+    <string name="_1011001111100011">1011001111100011</string>
+    <string name="_011010">011010</string>
+    <string name="_35647">35647</string>
+    <string name="hexadecimal_number_system">Hexadecimal Number System</string>
+    <string name="octal_to_decimal">Octal to Decimal</string>
+    <string name="octal_number_system">Octal Number System</string>
+    <string name="binary_number_system">Binary Number System</string>
+    <string name="decimal_number_system">Decimal Number System</string>
+    <string name="what_are_numbers">What are numbers?</string>
+    <string name="conversion_tab">Conversion Tab</string>
+    <string name="select_the_number_systems">Select the number systems</string>
+    <string name="welcome">Welcome</string>
+    <string name="apos">,</string>
+    <string name="decimal_to_hexadecimal">Decimal to Hexadecimal</string>
+    <string name="hexadecimal_to_decimal">Hexadecimal to Decimal</string>
+    <string name="sharedElement">robot</string>
+    <string name="submit">Submit</string>
+    <string name="outof">out of 8</string>
+    <string name="you_got">You got</string>
+
+    <string-array name="first">
+        <item>From</item>
+        <item>Decimal</item>
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+    <string-array name="second">
+        <item>To</item>
+        <item>Decimal</item>
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+</resources>

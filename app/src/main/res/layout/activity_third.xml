@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv"
+    android:background="@drawable/gradient"
+    android:padding="@dimen/sixteen_dips"
+    tools:context="com.example.android.gradient.ThirdActivity">
+
+    <LinearLayout style="@style/mmv">
+
+        <TextView
+            android:id="@+id/hellow_user"
+            style="@style/mw"
+            android:layout_marginTop="@dimen/thirty_dips"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_eight_sp" />
+
+        <TextView
+            style="@style/mw"
+            android:layout_marginTop="@dimen/four_dips"
+            android:text="@string/question"
+            android:textColor="@color/white"
+            android:textSize="@dimen/eighteen_sp" />
+
+        <RadioGroup
+            style="@style/mwv"
+            android:layout_margin="@dimen/eight_dips">
+
+            <RadioButton
+                android:id="@+id/first_option"
+                style="@style/third_activity_radiobutton"
+                android:text="@string/first_option" />
+
+            <RadioButton
+                android:id="@+id/second_option"
+                style="@style/third_activity_radiobutton"
+                android:text="@string/second_option" />
+
+            <RadioButton
+                android:id="@+id/third_option"
+                style="@style/third_activity_radiobutton"
+                android:text="@string/third_option" />
+
+            <RadioButton
+                android:id="@+id/fourth_option"
+                style="@style/third_activity_radiobutton"
+                android:text="@string/fourth_option" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

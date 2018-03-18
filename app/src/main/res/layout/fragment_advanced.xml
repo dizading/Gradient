@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv" android:padding="@dimen/eight_dips"
+    tools:context="com.example.android.gradient.Advanced">
+
+    <ScrollView style="@style/mwv" android:background="@drawable/ns_and_convrt">
+        <LinearLayout android:padding="@dimen/eight_dips" style="@style/mwv">
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced1"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwv" android:id="@+id/aq1"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/aq1a"
+                    android:text="@string/_35647"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq1b"
+                    android:text="@string/_011010"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq1c"
+                    android:text="@string/_1011001111100011"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq1d"
+                    android:text="@string/_1000101100111111"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced2"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwv" android:id="@+id/aq2"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/aq2a"
+                    android:text="@string/_110011"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq2b"
+                    android:text="@string/_100001"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq2c"
+                    android:text="@string/_110100"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq2d"
+                    android:text="@string/_100100"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced3"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/aq3"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:buttonTint="@color/grey"
+                    style="@android:style/Widget.CompoundButton.CheckBox"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/aq3a"
+                    android:text="@string/tru"/>
+                <RadioButton
+                    android:buttonTint="@color/grey"
+                    style="@android:style/Widget.CompoundButton.CheckBox"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/aq3b"
+                    android:text="@string/fal"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced4"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwv" android:id="@+id/aq4"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/aq4a"
+                    android:text="@string/msb"
+                    style="@style/mw"/>
+                <RadioButton android:id="@+id/aq4b"
+                    android:text="@string/msb_providing_the_follwing_sequences_of_remainders_are_written_in_the_descending_order_until_the_final_remainder_is_achieved"
+                    style="@style/mw"/>
+                <RadioButton android:id="@+id/aq4c"
+                    android:text="@string/lsb"
+                    style="@style/mw"/>
+                <RadioButton android:id="@+id/aq4d"
+                    android:text="@string/lsb_provided_the_final_remainder_is_used_to_replace_the_original_lsb_which_is_then_moved_to_the_msb_position"
+                    style="@style/mw"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced5"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwh" android:id="@+id/aq5"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/aq5a"
+                    android:text="@string/_0011"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/aq5b"
+                    android:text="@string/_1010"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/aq5c"
+                    android:text="@string/_1100"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton
+                    android:id="@+id/aq5d"
+                    android:text="@string/_1001"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced6"
+                style="@style/mw"/>
+            <RadioGroup
+                style="@style/mwv" android:id="@+id/aq6"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton
+                    android:id="@+id/aq6a"
+                    android:text="@string/bcd_is_pure_binary"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq6b"
+                    android:text="@string/binary_coding_has_a_decimal_format"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq6c"
+                    android:text="@string/bcd_has_no_decimal_format"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+                <RadioButton
+                    android:id="@+id/aq6d"
+                    android:text="@string/binary_coding_is_pure_binary"
+                    style="@style/radio_button_evenlyspacing_vertically"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced7"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/aq7"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/aq7a"
+                    android:text="@string/seven"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/aq7b"
+                    android:text="@string/eight"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/aq7c"
+                    android:text="@string/eleven"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/aq7d"
+                    android:text="@string/five"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="@dimen/ten_dips"
+                android:textSize="@dimen/fourteen_sp"
+                android:text="@string/advanced8"
+                style="@style/mw"/>
+            <RadioGroup style="@style/mwh" android:id="@+id/aq8"
+                android:layout_marginBottom="@dimen/ten_dips">
+                <RadioButton android:id="@+id/aq8a"
+                    android:text="@string/_111"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/aq8b"
+                    android:text="@string/_0110"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/aq8c"
+                    android:text="@string/_1110"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+                <RadioButton android:id="@+id/aq8d"
+                    android:text="@string/_1000"
+                    style="@style/radio_button_evenlyspacing_horizontally"/>
+            </RadioGroup>
+
+            <Button style="@style/mw"
+                android:id="@+id/advanced_button"
+                android:layout_marginTop="@dimen/ten_dips"
+                android:text="@string/submit"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

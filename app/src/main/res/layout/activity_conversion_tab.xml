@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mmv"
+    android:background="@drawable/gradient"
+    android:padding="@dimen/ten_dips"
+    tools:context="com.example.android.gradient.ConversionTab">
+
+    <LinearLayout style="@style/mwv">
+
+        <TextView
+            style="@style/mw"
+            android:fontFamily="@font/coiny"
+            android:gravity="center"
+            android:text="@string/conversion_tab"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            style="@style/mw"
+            android:fontFamily="@font/coiny"
+            android:gravity="center"
+            android:text="@string/select_the_number_systems"
+            android:textColor="@color/white"
+            android:textSize="@dimen/eighteen_sp" />
+
+        <LinearLayout
+            style="@style/mwh"
+            android:layout_margin="@dimen/eight_dips">
+
+            <Spinner android:background="@drawable/white_background"
+                android:layout_marginRight="@dimen/four_dips"
+                android:id="@+id/spinner1"
+                style="@style/evenly_spacing_horizontally" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/ic_menu_send" />
+
+            <Spinner android:background="@drawable/white_background"
+                android:layout_marginLeft="@dimen/four_dips"
+                android:id="@+id/spinner2"
+                style="@style/evenly_spacing_horizontally" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/eight_dips">
+
+            <EditText android:id="@+id/firstEdittext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:background="@drawable/white_round"
+                android:padding="@dimen/eight_dips" />
+
+            <ImageView
+                android:onClick="convert"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/four_dips"
+                android:layout_marginRight="@dimen/four_dips"
+                android:background="?android:attr/selectableItemBackground"
+                app:srcCompat="@android:drawable/stat_notify_sync_noanim" />
+
+            <TextView
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/eight_dips"
+                android:textSize="@dimen/eighteen_sp"
+                android:id="@+id/myLabel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/white_round" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sixteen_dips">16dp</dimen>
+    <dimen name="thirty_dips">30dp</dimen>
+    <dimen name="twenty_eight_sp">28sp</dimen>
+    <dimen name="four_dips">4dp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="eight_dips">8dp</dimen>
+    <dimen name="one_hundred_ten_sp">110sp</dimen>
+    <dimen name="twenty_dips">20dp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="sixty_dips">60dp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="five_dips">5dp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="ten_dips">10dp</dimen>
+    <dimen name="twenty_six_dips">26sp</dimen>
+    <dimen name="twenty_six_sp">26sp</dimen>
+</resources>

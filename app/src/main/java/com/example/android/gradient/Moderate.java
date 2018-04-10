@@ -182,7 +182,7 @@ public class Moderate extends Fragment {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String myToast = getString(R.string.you_got) + score + getString(R.string.outof);
+                String myToast = getString(R.string.you_got)+ " " + score + " " + getString(R.string.outof);
                 Toast.makeText(getContext(), myToast, Toast.LENGTH_SHORT).show();
             }
         });

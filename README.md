@@ -1,6 +1,6 @@
 # **Bits 1.0**
 
-## *This is a project which I developed it as a part of our Google India Scholarship Challenge 2018 course in Udacity.*
+## *This is a project which I developed it as a part of Google India Scholarship Challenge 2018 course in Udacity.*
 
 **The gist of the application is about Numbering System, and thus the name *BITS*. This application is design in such a way that it will be accessible for users who do not have any technical background.**
 

@@ -10,5 +10,5 @@ Some features of the application are:
 - Quiz on numbering system, inter-number system conversion and digital electronics
 - Conversion tab. In this section, the user will specify the number system of the number he wants to convert and the number system he       wants to convert to. Upon finishing the convert button, the user will get his answer.
 
-**Thanks for going through my project** :simple_smile:
+**Thanks for going through my project**
 
